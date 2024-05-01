@@ -141,7 +141,7 @@
 			classie.addClass(_biContImgEl, 'bi__imgCont');
 
 			_miImgEl.style.background = 'url('+ obj.src +') no-repeat center center';
-			_miImgEl.style.backgroundSize = 'cover';
+			_miImgEl.style.backgroundSize = '600px 300px';
 			_miImgEl.style.zIndex = (this.imagesCount - (obj.index + 1));
 			_biContImgEl.innerHTML = '<div class="bi__imgCont-img bi-'+ obj.index +'" />';
 
@@ -152,7 +152,7 @@
 			var bi = this.backgroundImages.querySelector('.bi__imgCont .bi-' + obj.index);
 			
 			bi.style.background = 'url('+ bgImageSrc +'-blur.jpg) no-repeat center top';
-			bi.style.backgroundSize = 'cover';
+			bi.style.backgroundSize = '600px 300px';
 			this.backgroundImages.style.display = "none";
 
 			//classie(this.Slider.querySelectorAll('.mi__img')[this.current], 'active-slide');
