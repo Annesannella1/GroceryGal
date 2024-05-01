@@ -16,6 +16,15 @@
 	.navbar-dark .navbar-toggler{
 		color: rgba(255,255,255);
 		border-color: rgba(255,255,255);
+	#content #slider .navigation ul li .li__info h5, #content #slider .navigation ul li .li__info-mask .mask__infoContainer h5{
+		font-size: 10px;
+	}
+	#content #slider .navigation ul li .li__info h4, #content #slider .navigation ul li .li__info-mask .mask__infoContainer h4{
+		font-size: 12px;
+	}
+	#content #slider .navigation ul li{
+		margin-bottom: 5px;
+	}
 	}
 	.heading h1{
 		font-size: 28px;
@@ -64,6 +73,15 @@
 	.navbar-dark .navbar-toggler{
 		color: rgba(255,255,255);
 		border-color: rgba(255,255,255);
+	#content #slider .navigation ul li .li__info h5, #content #slider .navigation ul li .li__info-mask .mask__infoContainer h5{
+		font-size: 10px;
+	}
+	#content #slider .navigation ul li .li__info h4, #content #slider .navigation ul li .li__info-mask .mask__infoContainer h4{
+		font-size: 12px;
+	}
+	#content #slider .navigation ul li{
+		margin-bottom: 5px;
+	}
 	}
 	.heading h1{
 		font-size: 28px;
